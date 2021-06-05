@@ -16,6 +16,7 @@ async function bridgeOne({ message }: { message: string }): Promise<string> {
       (line) => {
         console.info({ line }, "OK!");
         resolve(line);
+        connection.disconnect();
       },
       () => {
         console.info({}, "Disconneced");
