@@ -1,0 +1,7 @@
+.serverless
+ps
+*.gz
+*.tgz
+*.swp
+node_modules
+

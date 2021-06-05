@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-dotnet-launcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/handler.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@serverless/typescript": "^2.33.0",
+    "@types/aws-lambda": "^8.10.73",
+    "@types/tar": "^4.0.4",
+    "serverless-plugin-scripts": "^1.0.2",
+    "serverless-webpack": "^5.4.0",
+    "ts-loader": "^8.1.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.3",
+    "webpack": "^5.30.0"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.37",
+    "execa": "^5.1.1",
+    "tar": "^6.1.0"
+  }
+}

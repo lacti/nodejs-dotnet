@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.webpack": true,
+    "**/node_modules": true,
+    "*.tar.gz": true,
+    "*.tgz": true
+  }
+}
